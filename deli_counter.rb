@@ -18,11 +18,12 @@ def line(katz_deli)
       katz_deli.each_with_index do |name, i|
          string +=  " " + (i + 1).to_s + ". " + name 
       end 
+      
+      puts string 
     else
-      string = "The line is currently empty."
+      puts "The line is currently empty."
     end
   
-    puts string 
 end 
 
 
